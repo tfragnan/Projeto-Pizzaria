@@ -1,0 +1,81 @@
+body{
+    overflow-x: hidden;
+}
+
+#menu_superior{
+    height: 200px;
+    background: darkgray;
+    background-image: url("https://blog.praticabr.com/wp-content/uploads/2019/06/Pizza-Pizzaria-Forno-Forza-Express.jpg");
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left:0px;
+    right: 0px;
+    box-shadow: 0px 5px 20px 0px black;
+}
+
+#menu_esquerdo{
+    width: 300px;
+    background: gainsboro;
+    display: block;
+    height: 100%;
+    border-radius: 0px 10px 0px 0px;
+    border: 1px solid darkgray;   
+    position: fixed;
+    left:0px;
+}
+
+#conteudo{
+    margin-top: 220px;
+    margin-left: 320px;
+    background: white;
+}
+
+#titulo_menu_superior{
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nome_pizza:hover{
+    font-weight: bold;
+    background: black;
+    color: white;
+}
+
+.nome_pizza {
+    background: white;
+    display: block;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 40px;
+    text-decoration: none;
+    color:black;
+    transition: 0.5s;
+    text-align:center;
+}
+#cardapio{
+    text-align: center;
+}
+
+.pizza {
+    background: gainsboro;
+    padding-left: 20px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    text-align: left;
+    margin-top:20px;
+    box-shadow: 5px 5px 20px 0px darkgrey;
+  }
+
+.pizza img {
+    width: 500px;
+}
+
+.sem_link {
+    text-decoration: none;
+}
